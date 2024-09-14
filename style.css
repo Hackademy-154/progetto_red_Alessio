@@ -1,0 +1,189 @@
+
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+.bg-darkred{
+    background-color: darkred;
+    color: white;
+}
+
+.logoNavbar{
+    height: 55px;
+    width: 100px;
+}
+
+h1,h2,h3,h4,h5,p,a, .h1, .h2, .h3, .h4, .h5, .p, .a{
+    font-family: "Nova Square", Rajdhani !important;
+}
+
+.imgHeader{
+    background-image:  linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(236,236,236,1) 100%), url(./switzerland-862870_1920.jpg); 	
+    /* height: calc(100vh - 108px); */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.titoloHeader{
+    font-size: 100px;
+    color: darkred;
+    letter-spacing: 100px;
+    height: 50vh;
+    min-width: 100vw;
+    background-image: url(./mountains2.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+
+.fa{
+    font-size: 40px;
+    color: darkred;
+}
+
+.line{
+    border-bottom: 4px solid darkred;
+    position: relative;
+}
+
+.line::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    background-color: #ececec;
+    position: absolute;
+    bottom: -10px;
+    right: 105px;
+}
+
+.titoloCard{
+    color: darkred;
+}
+
+.containerCard{
+    margin-top: 90px;
+}
+
+.containerIcons{
+    margin-top: 90px;
+}
+
+.btnCustom{
+    background-color: darkred;
+    color: white;
+    border-radius: 0%;
+}
+
+.imgSectionButton{
+    background-image: url(./trees2.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 100vw;
+    height: 50vh;
+}
+
+.titoloTimeline{
+    color: darkred;
+}
+
+.line2{
+    border-left: 4px solid darkred;
+    position: relative;
+}
+
+.line2::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    background-color: white;
+    position: absolute;
+    left: -12px;
+}
+
+.dot{
+    position: relative;
+}
+
+.dot::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    background-color: white;
+    position: absolute;
+    left: -23px;
+}
+
+.imgTimeline{
+    background-image:  url(./single.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: white;
+}
+
+.sottoTitoloTL{
+    color: darkred;
+}
+
+.titoloCards{
+    color: darkred;
+    margin-bottom: 60px;
+}
+
+.rowCards{
+    margin-top: 100px;
+}
+
+.cardCustom{
+    border: none;
+}
+
+.imgCustomCard{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    padding: 10px;
+}
+
+.card-title{
+    color: darkred;
+}
+
+.bi{
+    color: darkred;
+}
+
+.cardBenefits{
+    border: none;
+}
+
+.imgBenefits{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    padding: 10px;
+}
+
+.imgFondo{
+    width: 100%;
+
+}
+
+@media screen and (max-width: 767px) {
+    .titoloHeader{
+        font-size: 50px;
+    letter-spacing: 50px;
+    }
+}
